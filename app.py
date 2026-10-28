@@ -86,6 +86,6 @@ def api_notes():
 
 @app.route("/health")
 def health():
-    return "OK", 200
+   return "200", 200
 
 init_db()
